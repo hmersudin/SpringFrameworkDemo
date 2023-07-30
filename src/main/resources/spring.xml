@@ -6,11 +6,11 @@
 
     <!-- bean definitions here -->
 
-<!--    <bean id="doctor" class="org.dailycodebuffer.entity.Doctor">-->
-<!--&lt;!&ndash;        <property name="qualification" value="MBBS"></property>&ndash;&gt;-->
-<!--&lt;!&ndash;        <property name="nurse" ref="nurse"></property>&ndash;&gt;-->
-<!--        <constructor-arg value="MBBS"> </constructor-arg>-->
-<!--    </bean>-->
+    <bean id="doctor" class="org.dailycodebuffer.entity.Doctor">
+<!--        <property name="qualification" value="MBBS"></property>-->
+<!--        <property name="nurse" ref="nurse"></property>-->
+        <constructor-arg value="MBBS"> </constructor-arg>
+    </bean>
 
-<!--    <bean id="nurse" class="org.dailycodebuffer.entity.Nurse"></bean>-->
+    <bean id="nurse" class="org.dailycodebuffer.entity.Nurse"></bean>
 </beans>
